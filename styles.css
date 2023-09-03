@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size:20px;
+  font-family: 'Ruwudu', serif;
+  
+  }
+  .header__title {
+    text-align: center;
+      position: relative;
+    font-size:80px;
+  font-family: 'Ruwudu', serif;
+  
+  
+  }
+  
+  
+  .header__nav {
+    padding: 10px;
+    margin: 0px;
+      background-color: #000000; 
+    margin-bottom: 30px;
+    
+     
+  }
+  
+  .header__nav ul {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      display: flex; 
+      justify-content: space-around; 
+   
+  }
+  
+  
+  .header__nav a {
+      text-decoration: none;
+      color: black;
+      padding: 10px 20px; 
+      transition: background-color 0.3s; 
+    color: #fffbf3;
+  }
+  
+  
+  .header__nav a:hover {
+      background-color: #555; 
+  }
+  
+  .content__box {
+   height: 60px;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQScs3tOMPNtpbVAfEQ5p5POrc4Tcj2kUHSCxAe8N6sKpSLWgTYjgtujd8zuUJdgxgBpM&usqp=CAU");
+      background-repeat: repeat-x;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size:34px;
+  }
+  
+  
+  
+  .content {
+      
+      flex: 1;
+      padding: 20px;
+      text-align: center; 
+     margin-bottom: 15px;
+    
+  }
+  
+  .content__item1 {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  
+  }
+  
+  .imagen {
+    width: 30%;
+  }
+  
+  .content__item2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+  }
+  
+  .card {
+      width: 25%; 
+      border: 2px solid #ccc;
+      padding: 10px;
+      margin: 30px;
+      transition: transform 0.3s ease;
+  }
+  
+  .card img {
+      max-width: 100%;
+    
+  }
+  
+  .card:hover {
+      transform: scale(1.1);
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .comprar-btn {
+      background-color: #7b7672;
+      color: #fff; 
+      padding: 10px 20px; 
+      font-size: 20px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+  }
+  
+  .comprar-btn:hover {
+      background-color: #120907; 
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("nike.avif");
+    background-repeat: no-repeat; 
+      background-size: cover;
+    color: #fafffc;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: 4px ridge #fafffc;
+    height:20%;
+  }
+  
+  
+  .footer__form {
+    width: 30%;
+    padding: 5px;
+    margin: 0px;
+  }
+  .enviar-btn {
+     background-color: #fafffc;
+      color: black; 
+      padding: 7px 10px; 
+      font-size: 20px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+  }
+  
+  .enviar-btn:hover {
+      background-color: #7b7672; 
+  }
+    
